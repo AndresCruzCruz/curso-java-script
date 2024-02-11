@@ -16,7 +16,7 @@ while( carros[i] ) {
     if ( i === 1 ) {
         // break;
         i++;
-        continue;
+        continue; // Evita que se ejecute el codigo que sigue y continua con la siguiente iteracion
     }
     console.log(carros[i]);
     i++;
