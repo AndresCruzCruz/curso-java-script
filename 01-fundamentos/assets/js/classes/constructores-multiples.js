@@ -1,7 +1,7 @@
 
 class Persona {
 
-    static porObjeto({nombre, apellido, pais}) {
+    static porObjeto({nombre, apellido, pais}) { // Se crea un metodo estatico que recibe un objeto como argumento para poder utilizar el metodo porObjeto sin necesidad de instanciar la clase
         return new Persona(nombre, apellido, pais);
     }
 
