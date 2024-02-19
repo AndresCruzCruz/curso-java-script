@@ -1,7 +1,7 @@
 # BlackJack Vite
 
 ## Description
-A brief description of the project and its purpose.
+Este proyecto es parte del curso de javaScript
 
 ## Table of Contents
 - [Installation](#installation)
