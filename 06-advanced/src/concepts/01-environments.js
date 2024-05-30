@@ -4,7 +4,8 @@
  * @param {HTMLDivElement} element 
  */
 export const environmentsComponent = (element) => {
-    console.log(import.meta.env);
+    // console.log(process.env); // No podemos acceder a las variables de entorno de Vite
+    console.log(import.meta.env); // De esta forma accedemos a las variables de entorno de Vite
 
     const html = `
         Dev: ${import.meta.env.DEV} <br/>
