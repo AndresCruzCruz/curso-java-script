@@ -27,6 +27,8 @@ export const generatorFunctionsComponent = (element) => {
         const { value } = genId.next();
         button.innerText = `Click ${value}`;
     }
+
+    
     button.addEventListener('click', (event) => renderButton() );
 }
 
